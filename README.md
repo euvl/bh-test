@@ -1,5 +1,9 @@
 # Checkbox and label component
 
+An implementation of simple checkbox and label component.
+
+Demo: http://euvl.github.io/bh-test
+
 ## Properties
 
 | Name        | Description |
