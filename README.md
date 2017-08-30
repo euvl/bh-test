@@ -9,7 +9,7 @@ Demo: http://euvl.github.io/bh-test
 | Name        | Description | Required | 
 | ---         | ---                                     | --- |
 | label       | Label on the right side of the checkbox | false |
-| onChange    | Event handler which is triggerend when checkbox changes it's onternal state | false |
+| onChange    | Event handler which is triggerend when checkbox changes it's internal state | false |
 
 ## Building
 
