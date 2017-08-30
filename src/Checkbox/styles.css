@@ -1,3 +1,32 @@
 .checkbox {
   display: inline-block;
 }
+
+.checkbox-core {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+
+  border: 1px solid #555;
+  border-radius: 50%;
+  padding: 2px;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-label {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 4px;
+}
+
+.checkbox-checked {
+  width: 100%;
+  height: 100%;
+  background: #555;
+  border-radius: 50%;
+}
