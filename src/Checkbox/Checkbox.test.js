@@ -5,18 +5,20 @@ import Checkbox from './index'
 describe('Checkbox component', () => {
   it('Should render', () => {
     let component = shallow(<Checkbox/>)
+
     expect(component.exists()).toBe(true)
   })
 
   it('Should have label', () => {
     let component = shallow(<Checkbox label={'foo'}/>)
+    let div = <div className="checkbox-label">foo</div>
 
-    expect(component.contains(<div className="checkbox-label">foo</div>))
-      .toBe(true)
+    expect(component.contains(div)).toBe(true)
   })
 
   it('Should have default "checked" state', () => {
     let component = shallow(<Checkbox/>)
+
     expect(component.state().checked).toBe(false)
   })
 
