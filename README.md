@@ -1,3 +1,5 @@
+# Checkbox and label component
+
 ## Properties
 
 | Name        | Description |
